@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 700px;
+    background-color:blueviolet;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.container{
+    margin-top: 10%;
+}
+.login{
+    background-color:burlywood;
+    width: 60%;
+    padding: 5%;
+    margin: 0 auto;
+    box-shadow: 2px 8px 6px 18px rgb(21, 13, 43);
+}
+
+.login-box{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.login-box input[type="text"]{
+    margin-top: 40px;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-box input[type="password"]{
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-box button{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+hr{
+    margin-top: 10px;
+}
+
+
+/* Second page starts here */
+.box {
+    background-color: rgb(4, 87, 8);
+    width: 60%;
+    padding: 5%;
+    margin: 0 auto;
+    color:white;
+}
+
+h3{
+    margin-bottom: 11px;
+    color:rgb(238, 28, 28);
+}
+
+.row{
+    position: relative;
+    margin-top: 70px;
+    height: 100%;
+}
+.left-box {
+    position: absolute;
+    left: 0;
+    margin: auto;
+    background-color: rgb(4, 87, 8);
+    width: 50%;
+    padding: 5%;
+    color:white;
+    float: left;
+}
+.right-box {
+    right: -40px;
+    margin: auto;
+    position: absolute;
+    background-color: rgb(4, 87, 8);
+    width: 50%;
+    padding: 5%;
+    color:white;
+    float: left;
+}
+
+.left-box button{
+    padding: 10px;
+    font-size:1rem;
+}
+.left-box .add{
+    text-align: center;
+}
+
+.right-box button{
+    padding: 10px;
+    font-size:1rem;
+}
+.right-box .withdrow{
+    text-align: center;
+}
+
+.clear::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+.goLogin button{
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgb(54, 9, 252);
+    color: white;
+    box-shadow: 2px 1px 2px 3px rgb(0, 0, 0);
+    margin: 250px 260px auto;
+}

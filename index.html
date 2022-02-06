@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bank System</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <!-- Login page -->
+        <div class="login">
+            <div class="login-box">
+                <h1>Login Form</h1>
+                <hr>
+                <input id="account" type="text" placeholder="Enter Your Name"> <br> <br>
+                <input id="password" type="password" placeholder="Enter Your Password"> <br> <br>
+                <div class="btn">
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Second page -->
+        <div class="secondPage">
+            <div class="box">
+                <div class="balance">
+                    <h1>বর্তমান টাকা: <span id="totalBalance">00</span></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-box">
+                    <div class="add">
+                        <h3>টাকা যোগ করুন: <span id="showBalance">00</span></h3>
+                        <input type="text" id="addInput"> <br> <br>
+                        <button id="addBalance">Add</button>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="withdrow">
+                        <h3>খরচ করুন: <span id="showWithdrow">00</span></h3>
+                        <input type="text" id="withdrowInput">
+                        <br> <br>
+                        <button id="withdrowBalance">Withdrow</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        
+        <div class="goLogin">
+            <div class="btn">
+                <Button id="goLogin">Go To The Login Page</Button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
